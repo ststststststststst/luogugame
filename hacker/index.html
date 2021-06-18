@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html lang="CN"><head>
+<html lang="CN">
+<head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="images/logo.png" />
 	<link rel="canonical" href="https://wouldplay.cn/hacker/">
-	<link rel="amphtml" href="https://wouldplay.cn/hacker/amp/">
 	<script type="text/javascript" async="" src="./js/analytics.js"></script>
 	<script src="./js/jquery-jqui.js"></script>
 	<link rel="stylesheet" type="text/css" href="./css/hacker.css">
 	<title>在线黑客模拟器</title>	
     <meta name="description" content="开始输入随机文本，模拟您&#39；重新入侵计算机系统。点击右边的图标或。。。">
-    <meta name="keywords" content="hacker,typer">
-    <meta property="og:title" content="Hacker Typer by Pranx">
+    <meta name="keywords" content="黑客模拟器">
+    <meta property="og:title" content="黑客模拟器">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://wouldplay.cn/hacker/">
     <meta property="og:image" content="https://wouldplay.cn/hacker/og.jpg">
@@ -346,13 +347,17 @@
 				<span class="cursor cursorBlink"></span>
 			</div><div class="scroll-element scroll-x"><div class="scroll-element_outer"><div class="scroll-element_size"></div><div class="scroll-element_track"></div><div class="scroll-bar"></div></div></div><div class="scroll-element scroll-y"><div class="scroll-element_outer"><div class="scroll-element_size"></div><div class="scroll-element_track"></div><div class="scroll-bar"></div></div></div></div>
 		<div class="ui-resizable-handle ui-resizable-e" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-s" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se" style="z-index: 90;"></div></div></div>
-		<div class="window closed reklamocskak ui-draggable ui-draggable-handle" data-ico="$" data-title="Advertisements" data-id="7" id="window7" style="z-index: 1000;"><div class="windowHeader">
+		<!-- <div class="window closed reklamocskak ui-draggable ui-draggable-handle" data-ico="$" data-title="Advertisements" data-id="7" id="window7" style="z-index: 1000;">
+		<div class="windowHeader">
 		<strong>广告 </strong><span title="Minimize" class="winminimize"><span></span></span>
 		<span title="Maximize" class="winmaximize"><span></span><span></span></span><span title="Close" class="winclose">×</span></div><div class="wincontent ui-resizable">
-			<div class="wrapFreestar"><!--ad--></div>
+			<div class="wrapFreestar"></div>
 			<div id="wrapBestDeals">
 			</div>
-		<div class="ui-resizable-handle ui-resizable-e" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-s" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se" style="z-index: 90;"></div></div></div>
+		<div class="ui-resizable-handle ui-resizable-e" style="z-index: 90;"></div>
+		<div class="ui-resizable-handle ui-resizable-s" style="z-index: 90;"></div>
+		<div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se" style="z-index: 90;"></div>
+		</div></div> -->
 
 		<div class="window closed interpol ui-draggable ui-draggable-handle" data-ico="⇔" data-title="Interpol database" data-id="8" id="window8" style="z-index: 1000;"><div class="windowHeader"><strong>Interpol database</strong><span title="Minimize" class="winminimize"><span></span></span><span title="Maximize" class="winmaximize"><span></span><span></span></span><span title="Close" class="winclose">×</span></div><div class="wincontent ui-resizable">
 			<div class="wrapVideo">
@@ -382,13 +387,16 @@
 		<div id="topSecret" class="ablakocska ablakocska3 ui-draggable ui-draggable-handle" data-id="3" style="left: 760px;"><div class="ablakcontent"><a class="closeAblakocska" title="Close">×</a>
 			<img src="./img/top-secret.png" alt="classified">
 		</div></div>
-		<div id="partikulacskak" class="ablakocska ablakocska4 ui-draggable ui-draggable-handle" data-id="4" style="left: 710px;"><div class="ablakcontent"><a class="closeAblakocska" title="Close">×</a>
-			<div>
-				<span>Neural Network Tracing</span>
-				<div id="partikulacskakIde"></div>
+		<div id="partikulacskak" class="ablakocska ablakocska4 ui-draggable ui-draggable-handle" data-id="4" style="left: 710px;">
+			<div class="ablakcontent"><a class="closeAblakocska" title="Close" onclick="$('#partikulacskak').css('border','none');">×</a>
+				<div>
+					<span>Neural Network Tracing</span>
+					<div id="partikulacskakIde"></div>
+				</div>
 			</div>
-		</div></div>		
-		<div id="matrixRain" class="ablakocska ablakocska5 ui-draggable ui-draggable-handle" data-id="5" style="left: 710px;"><div class="ablakcontent"><a class="closeAblakocska" title="Close">×</a>
+		</div>		
+		<div id="matrixRain" class="ablakocska ablakocska5 ui-draggable ui-draggable-handle" data-id="5" style="left: 710px;">
+		<div class="ablakcontent"><a class="closeAblakocska" title="Close" onclick="$('#matrixRain').css('border','none');">×</a>
 			<div>编译代码</div>
 			<canvas id="c" height="969" width="1920"></canvas>
 		</div></div>
@@ -399,7 +407,8 @@
 				<div class="processBar"><div></div></div>
 			</div>
 		</div></div>
-		<div id="grafikon" class="ablakocska ablakocska7 ui-draggable ui-draggable-handle" data-id="7" style="left: 760px;"><div class="ablakcontent"><a class="closeAblakocska" title="Close">×</a>
+		<div id="grafikon" class="ablakocska ablakocska7 ui-draggable ui-draggable-handle" data-id="7" style="left: 760px;">
+		<div class="ablakcontent"><a class="closeAblakocska" title="Close" onclick="$('#grafikon').css('border','none');">×</a>
 			<div>
 				<canvas id="chart" width="400" height="300"></canvas>
 			</div>
@@ -433,7 +442,16 @@
 			<div id="startMenuButton">
 				<span>≡</span>&nbsp;开搞
 			</div>
-		<div class="taskbarPanel closed" id="minimPanel0" data-id="0"><span>?</span>有用的信息</div><div class="taskbarPanel closed" id="minimPanel1" data-id="1"><span>╩</span>主服务器</div><div class="taskbarPanel closed" id="minimPanel2" data-id="2"><span>B</span>Bitcoin Miner</div><div class="taskbarPanel closed" id="minimPanel3" data-id="3"><span>◰</span>Headquarter surveillance</div><div class="taskbarPanel closed" id="minimPanel4" data-id="4"><span>*|</span>密码破解器</div><div class="taskbarPanel closed" id="minimPanel5" data-id="5"><span>⊗</span>Nuclear Plant</div><div class="taskbarPanel closed" id="minimPanel6" data-id="6"><span>╩</span>远程连接</div><div class="taskbarPanel closed" id="minimPanel7" data-id="7"><span>$</span>Advertisements</div><div class="taskbarPanel closed" id="minimPanel8" data-id="8"><span>⇔</span>Interpol database</div><div class="taskbarPanel closed" id="minimPanel9" data-id="9"><span>&gt;.</span>Program Console</div></div>
+		<div class="taskbarPanel closed" id="minimPanel0" data-id="0"><span>?</span>有用的信息</div>
+		<div class="taskbarPanel closed" id="minimPanel1" data-id="1"><span>╩</span>主服务器</div>
+		<div class="taskbarPanel closed" id="minimPanel2" data-id="2"><span>B</span>比特币矿工</div>
+		<div class="taskbarPanel closed" id="minimPanel3" data-id="3"><span>◰</span>总部监视</div>
+		<div class="taskbarPanel closed" id="minimPanel4" data-id="4"><span>*|</span>密码破解器</div>
+		<div class="taskbarPanel closed" id="minimPanel5" data-id="5"><span>⊗</span>核电站</div>
+		<div class="taskbarPanel closed" id="minimPanel6" data-id="6"><span>╩</span>远程连接</div>
+		<div class="taskbarPanel closed" id="minimPanel7" data-id="7"><span>$</span>广告</div>
+		<div class="taskbarPanel closed" id="minimPanel8" data-id="8"><span>⇔</span>国际刑警组织数据库</div>
+		<div class="taskbarPanel closed" id="minimPanel9" data-id="9"><span>&gt;.</span>程序控制台</div></div>
 		<div id="startMenu">
 			<ul class="languagePicker">
 			
@@ -464,7 +482,7 @@
 		<a class="openWindow closed" id="openWindow4" data-id="4"><span>*|</span>密码破解器</a>
 		<a class="openWindow closed" id="openWindow5" data-id="5"><span>⊗</span>核电站</a>
 		<a class="openWindow closed" id="openWindow6" data-id="6"><span>╩</span>远程连接</a>
-		<a class="openWindow closed" id="openWindow7" data-id="7"><span>$</span>广告</a>
+		<!-- <a class="openWindow closed" id="openWindow7" data-id="7"><span>$</span>广告</a> -->
 		<a class="openWindow closed" id="openWindow8" data-id="8"><span>⇔</span>国际刑警组织数据库</a>
 		<a class="openWindow closed" id="openWindow9" data-id="9"><span>&gt;.</span> 程序控制台 </a>
 		</div>
@@ -477,39 +495,39 @@
 	<div id="languageBits">
 		<span>抱歉，您正在使用ad；阻滞剂</span>
 
-<span>禁用AdBlock</span>
+		<span>禁用AdBlock</span>
 
-<span>怎么做</span>
+		<span>怎么做</span>
 
-<span>不匹配</span>
+		<span>不匹配</span>
 
-<span>成功</span>
+		<span>成功</span>
 
-<span>运行蛮力攻击</span>
+		<span>运行蛮力攻击</span>
 
-<span>请等待解决方案</span>
+		<span>请等待解决方案</span>
 
-<span>成功：找到管理员密码</span>
+		<span>成功：找到管理员密码</span>
 
-<span>密码</span>
+		<span>密码</span>
 
-<span>状态：待机</span>
+		<span>状态：待机</span>
 
-<span>开始暴力攻击</span>
+		<span>开始暴力攻击</span>
 
-<span>定位</span>
+		<span>定位</span>
 
-<span>跟踪IP</span>
+		<span>跟踪IP</span>
 
-<span>找到的位置</span>
+		<span>找到的位置</span>
 
-<span>跟踪SIM卡</span>
+		<span>跟踪SIM卡</span>
 
-<span>最小化</span>
+		<span>最小化</span>
 
-<span>最大化</span>
+		<span>最大化</span>
 
-<span>关闭</span>
+		<span>关闭</span>
 		<span></span>
 	</div>
 	<script src="./js/particles.min.js"></script>
