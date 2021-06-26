@@ -14,7 +14,7 @@
 1.  纯静态页面，浏览器渲染即可
 
 #### 使用说明
- 在线预览：http://www.wouldplay.cn
+ 在线预览：https://www.wouldplay.cn
 
 #### 参与贡献
 
